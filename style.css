@@ -73,3 +73,59 @@ p {
     line-height: 1.5;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+a:link { 
+    text-decoration: none; 
+} 
+
+a:hover { 
+    text-decoration: none; 
+} 
+a:active { 
+text-decoration: none; 
+}
+
+/* a {
+    font-size: 12pt;
+} */
+
+#authors_block {
+    padding: 5px;
+    font-size: 12pt;
+}
+
+#button_block {
+    padding: 10px;
+}
+
+/* yoinked from bulma css */
+.button.is-rounded {
+    border-radius: 290486px;
+    padding-left: calc(1em + .25em);
+    padding-right: calc(1em + .25em)
+}
+
+.button.is-dark {
+    background-color: #363636;
+    border-color: transparent;
+    color: #fff
+}
+
+.button {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-width: 1px;
+    color: #363636;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(.5em - 1px);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: calc(.5em - 1px);
+    text-align: center;
+    white-space: nowrap
+}
+
